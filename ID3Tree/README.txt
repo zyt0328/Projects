@@ -26,7 +26,12 @@ How to run the project：
 	Put election_clean.csv and ID3Tree.ipynb into the same directory, 
 	open ID3Tree.ipynb and click Run All
 	
-	
+
+
+
+Objectives of the project：
+	Create a decision tree using all the attributes in election_clean.csv that have discrete values to make predictions for the attribute democrat.
+
 
 
 
@@ -59,14 +64,12 @@ Extra Features:
 	
 
 
-
 Some Important Explanations!!! :
 	In the data used here, COUNTY is not a very good attribute, and his presence poses many problems, mainly because it has numerous non-repeating discrete variables that greatly interfere with the accuracy of the prediction. So please be careful to remove this column of data when testing.
 	
 
 	
 	
-
 Sources that provide help:
 
 	1. https://www.youtube.com/watch?v=YG_nOa6-6Q8   
