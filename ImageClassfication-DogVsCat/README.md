@@ -1,4 +1,3 @@
-Author: Yingtao Zhang
 
 Project name: Feline Canine Convolutional Extractor
 
