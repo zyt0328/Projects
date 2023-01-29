@@ -1,6 +1,10 @@
 Author: Yingtao Zhang
+
 Project name: Feline Canine Convolutional Extractor
+
 Project creation date: 2023/01/25
+
+
 
 
 "Welcome to the Feline Canine Convolutional Extractor project! This project aims to train a high-performing CNN model for cat and dog recognition to help people identify pictures of cats and dogs more efficiently. The trained model can be used for various interesting applications and we have demonstrated in our experiments that the refined data can be very effective in improving the accuracy of other general classification models. In this README file, you will find information on how to set up the required environment, access the datasets used, and run the code to train and use the model. We hope you find this project useful and we look forward to seeing how you use it!"
@@ -55,18 +59,21 @@ Dataset :
 
 Description of each document in the project:
 
-	Best_CNN_Model:This file shows how we trained our CNN dog and cat recognition model. We used close
+	Best_CNN_Model:
+	This file shows how we trained our CNN dog and cat recognition model. We used close
     to 25,000 images of dogs and cats to train the model, and the training time was close to 90 minutes, 
     and the prediction accuracy was stable at about 91%. The accuracycan be further improved by increasing 
     the number of images in the training set and increasing the number of training rounds.
 
 
-    DogVsCat: This folder holds our trained model and its parameters in Best_CNN_Model.
+    DogVsCat:
+	This folder holds our trained model and its parameters in Best_CNN_Model.
     Using the load_model function in Keras to use our model directly:
         myModel = tf.keras.models.load_model('DogVsCat')
 
     
-    all_model:This file shows the improvement of each classification model from the refined data extracted 
+    all_model:
+	This file shows the improvement of each classification model from the refined data extracted 
     using our trained CNN model as a feature extractor.The training results of the common model are not 
     included in this paper, and all common models are given almost 50% accuracy. You can add your own code 
     to test the common model.        !!!For detailed information, please check our report.!!!
@@ -92,6 +99,7 @@ How to use our Model:
 
 
 Sources that have helped me:
+
     https://www.kaggle.com/code/ivanechen/deeplearning-cnn-dog-vs-cat-acc-93
     https://www.kaggle.com/code/vanausloos/solution-dogs-vs-cats-svm-model-model-2
     https://towardsdatascience.com/svm-support-vector-machine-for-classification-710a009f6873
