@@ -41,6 +41,7 @@ Prerequisites:
 
 
 Dataset :
+
     We used the cat and dog recognition dataset on Kaggle to train our model.
     Below are links to the two datasets we used:
     https://www.kaggle.com/datasets/karakaggle/kaggle-cat-vs-dog-dataset
