@@ -1,12 +1,12 @@
 
-Project name: Feline Canine Convolutional Extractor
+Project name: Feline & Canine Convolutional Extractor
 
 Project creation date: 2023/01/25
 
 
 
 
-"Welcome to the Feline Canine Convolutional Extractor project! This project aims to train a high-performing CNN model for cat and dog recognition to help people identify pictures of cats and dogs more efficiently. The trained model can be used for various interesting applications and we have demonstrated in our experiments that the refined data can be very effective in improving the accuracy of other general classification models. In this README file, you will find information on how to set up the required environment, access the datasets used, and run the code to train and use the model. We hope you find this project useful and we look forward to seeing how you use it!"
+"Welcome to the Feline & Canine Convolutional Extractor project! This project aims to train a high-performing CNN model for cat and dog recognition to help people identify pictures of cats and dogs more efficiently. The trained model can be used for various interesting applications and we have demonstrated in our experiments that the refined data can be very effective in improving the accuracy of other general classification models. In this README file, you will find information on how to set up the required environment, access the datasets used, and run the code to train and use the model. We hope you find this project useful and we look forward to seeing how you use it!"
 
 
 Prerequisites:
